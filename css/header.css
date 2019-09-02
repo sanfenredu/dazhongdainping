@@ -1,0 +1,95 @@
+body {
+    font-family: Hiragino Sans GB, Arial, Helvetica, "宋体", sans-serif;
+    font-size: 14px;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #f0f0f0
+}
+
+
+/* heaer */
+
+.index-header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f63;
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box
+}
+
+
+/* nav 左边 */
+
+.nav-left a {
+    display: block;
+    padding-right: 17px;
+    color: #fff;
+    max-width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative
+}
+
+.nav-left span {
+    border: 1px solid #fff;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    margin-top: -8px;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+
+/* nav 中间 */
+
+.nav-seacher {
+    flex: 1;
+    background-color: #fff;
+    height: 30px;
+    margin: 9px 6px 9px 10px;
+    /* padding-left: 30px; */
+    line-height: 32px;
+    color: #b8b8b8;
+    text-align: left;
+    font-size: 13px;
+    border-radius: 25px;
+}
+
+.nav-seacher a {
+    color: #b8b8b8;
+    position: relative;
+}
+
+.nav-seacher i {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 10px
+}
+
+
+/* nav 右边 */
+
+.nav-right {
+    width: 28px;
+    height: 100%;
+}
+
+.nav-right i {
+    font-size: 28px
+}
